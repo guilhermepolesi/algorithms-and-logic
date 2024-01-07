@@ -3,7 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Function to clear the input buffer
+/* Function to clear the input buffer, due to possible problems reading entire data after text input,
+where the line break is left in the buffer, affecting the next read.*/ 
 void clearBuffer() {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
