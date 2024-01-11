@@ -1,5 +1,5 @@
 /*
-write a program that makes a simple calculator. The user will enter the first number
+Write a program that makes a simple calculator. The user will enter the first number
 then enter the operator and then enter the second number.
 Print the operation and the result.
 This exercise must be done with numbers and results in float or double.
