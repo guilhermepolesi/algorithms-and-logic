@@ -10,7 +10,7 @@ Print the values.
 int main()
 {
 
-    int i, n, number, count, average, sum = 0;
+    int i, n, number, count, sum = 0;
     printf("Enter the number of elements to insert: ");
     scanf("%d", &n);
 
@@ -29,8 +29,8 @@ int main()
     }
 
     if (count != 0) {
-        average = sum / count;
-        printf("\nThe average of the even numbers in the vector is %d and the number of even numbers is %d", average, count);
+        double average = (double) sum / count;
+        printf("\nThe average of the even numbers in the vector is %.2lf and the number of even numbers is %d", average, count);
     }
     else {
         printf("\nThere are no even numbers in the vector");

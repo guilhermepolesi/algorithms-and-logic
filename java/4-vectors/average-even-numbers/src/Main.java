@@ -30,9 +30,9 @@ public class Main {
         }
 
         if (count != 0) {
-            int average = sum / count;
-            System.out.println("\nThe average of the even numbers in the vector is " + average
-                    + " and the number of even numbers is " + count);
+            double average = (double) sum / count;
+            System.out.printf("\nThe average of the even numbers in the vector is %.2f"
+                    + " and the number of even numbers is %d", average, count);
         }
         else {
             System.out.println("\nThere are no even numbers in the vector");
