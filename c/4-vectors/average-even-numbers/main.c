@@ -28,8 +28,13 @@ int main()
         }
     }
 
-    average = sum / count;
-    printf("\nThe average of the even numbers in the vector is %d and the number of even numbers is %d", average, count);
+    if (count != 0) {
+        average = sum / count;
+        printf("\nThe average of the even numbers in the vector is %d and the number of even numbers is %d", average, count);
+    }
+    else {
+        printf("\nThere are no even numbers in the vector");
+    }
 
     return 0;
 }

@@ -1,5 +1,5 @@
 /*
-Write a program that directly assigns variables. Assign the main types (string, integer, character, floating-point and logical.
+Write a program that directly assigns variables. Assign the main types (string, integer, character, floating-point and logical).
 Enter your name, age, gender and height.
 The logical value is determined false if the age is less than 40, and true for greater than 40.
 Print the information.
