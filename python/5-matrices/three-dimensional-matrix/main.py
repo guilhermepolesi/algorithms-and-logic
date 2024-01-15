@@ -40,3 +40,5 @@ for i in range(0, row):
 
 if number_found:
     print(f"\nThe number {number} is found in row {row_number} column {column_number} layer {layer_number}")
+else:
+    print("\nThe number was not inserted into the matrix")
