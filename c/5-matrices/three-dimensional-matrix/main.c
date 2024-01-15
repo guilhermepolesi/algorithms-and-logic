@@ -12,7 +12,7 @@ In this program, if there are duplicate numbers in the matrix, the row, column a
 int main()
 {
 
-    int i, j, k, row, column, layer, number, rowNumber, columnNumber, layerNumber, numberFound;
+    int i, j, k, row, column, layer, number, rowNumber, columnNumber, layerNumber, numberFound = 0;
 
     printf("Enter the number of rows: ");
     scanf("%d", &row);
